@@ -14,3 +14,20 @@ Here are some reasons why the given approach for the pair_sum function is good:
 Overall, this approach strikes a balance between efficiency, readability, and simplicity, making it a good choice for finding unique pairs that sum up to a specific value within an array.
 
 **Solution:** To be found in file *"Riddle 1 - Unique Pairs.py"*
+
+## Riddle 2 - Anagram Check
+
+**Problem:** Given two strings, check if they are anagrams of each other.
+
+This Python function anagram checks whether two strings are anagrams of each other by comparing their character counts.
+
+Here are some reasons why this approach for the anagram function is effective:
+
+Efficiency: The solution counts character occurrences in both strings, resulting in a time complexity of O(n) where 'n' is the total number of characters in the input strings. It iterates through the strings twice to create character count dictionaries, ensuring an efficient comparison.
+
+Space Efficiency: It uses dictionaries (char_count_s1 and char_count_s2) to store character occurrences, requiring additional space proportional to the number of unique characters in the strings, making it space-efficient.
+
+Readability and Simplicity: The code is structured for readability and simplicity. It utilizes clear variable names and comments to explain the purpose of each step, making it easy to understand.
+
+Solution:
+To be found in the file "Anagram Checker.py"
