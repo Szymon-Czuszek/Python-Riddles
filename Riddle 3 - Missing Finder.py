@@ -9,6 +9,16 @@
 from collections import Counter
 
 def finder(arr1, arr2):
+    """
+    Finds the missing element in arr2 compared to arr1.
+
+    Args:
+    - arr1 (list): First input array
+    - arr2 (list): Second input array
+
+    Returns:
+    - Any: The missing element if found, None otherwise
+    """
     count = Counter(arr1)
 
     for item in arr2:
