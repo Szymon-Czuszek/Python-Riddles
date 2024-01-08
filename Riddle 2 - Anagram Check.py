@@ -7,6 +7,19 @@
 
 
 def anagram(s1, s2):
+    """
+    Check if two strings are anagrams of each other.
+
+    An anagram is when two strings can be written using the exact same letters 
+    (so you can just rearrange the letters to get a different phrase or word).
+
+    Args:
+    - s1 (str): The first input string.
+    - s2 (str): The second input string.
+
+    Returns:
+    - bool: True if s1 and s2 are anagrams, False otherwise.
+    """
     s1 = s1.lower().replace(" ", "")
     s2 = s2.lower().replace(" ", "")
 
