@@ -39,3 +39,13 @@ Here are some reasons why this approach for the finder function is effective:
 **Handling Different Lengths:** The function correctly handles scenarios where arr2 might have one fewer element than arr1. It compares the counts and identifies the missing element or handles cases where the missing element isn't found.
 
 **Solution:** To be found in the file *"Riddle 3 - Missing Finder.py"*
+
+Riddle 4 - Continuous Sum
+
+Problem: Find the largest sum of a contiguous subarray within the given array.
+
+Here are some reasons why this approach for the large_cont_sum function is good:
+
+Efficiency: The function uses a linear iteration through the array, maintaining two variables current_sum and max_sum. It updates current_sum as it traverses the array, keeping track of the maximum contiguous sum encountered in max_sum. Space Efficiency: It uses a constant amount of additional space, maintaining only two variables for the current sum and maximum sum, ensuring space efficiency. Readability and Simplicity: The code is structured for readability and simplicity. It utilizes intuitive variable names and comments to explain the purpose of each step, making it easy to understand.
+
+Solution: To be found in the file "Riddle 4 - Continuous Sum.py"
