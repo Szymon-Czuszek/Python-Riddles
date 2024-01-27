@@ -59,6 +59,44 @@ Here are some reasons why this approach for the anagram function is effective:
 
 **Solution:** To be found in the file *"Anagram Check.py"*
 
+```python:
+def anagram(s1, s2):
+    """
+    Check if two strings are anagrams of each other.
+
+    An anagram is when two strings can be written using the exact same letters 
+    (so you can just rearrange the letters to get a different phrase or word).
+
+    Args:
+    - s1 (str): The first input string.
+    - s2 (str): The second input string.
+
+    Returns:
+    - bool: True if s1 and s2 are anagrams, False otherwise.
+    """
+    s1 = s1.lower().replace(" ", "")
+    s2 = s2.lower().replace(" ", "")
+
+    # Check if the lengths of the strings are equal
+    if len(s1) != len(s2):
+        return False
+
+    # Create dictionaries to count character occurrences
+    char_count_s1 = {}
+    char_count_s2 = {}
+
+    # Count occurrences of characters in s1
+    for char in s1:
+        char_count_s1[char] = char_count_s1.get(char, 0) + 1
+
+    # Count occurrences of characters in s2
+    for char in s2:
+        char_count_s2[char] = char_count_s2.get(char, 0) + 1
+
+    # Check if the character counts are equal
+    return char_count_s1 == char_count_s2
+```
+
 ## Riddle 3 - Missing Finder
 
 **Problem:** Given two arrays, find the missing element from the second array that is not present in the first array.
