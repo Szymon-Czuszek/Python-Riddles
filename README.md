@@ -108,6 +108,40 @@ Here are some reasons why this approach for the finder function is effective:
 
 **Solution:** To be found in the file *"Riddle 3 - Missing Finder.py"*
 
+```python:
+from collections import Counter
+
+def finder(arr1, arr2):
+    """
+    Finds the missing element in arr2 compared to arr1.
+
+    Args:
+    - arr1 (list): First input array
+    - arr2 (list): Second input array
+
+    Returns:
+    - Any: The missing element if found, None otherwise
+    """
+    count = Counter(arr1)
+
+    for item in arr2:
+        count[item] -= 1
+
+    # Find the element with a count that isn't zero
+    for key, value in count.items():
+        if value != 0:
+            return key
+
+    # Check if arr2 is shorter by one element
+    if len(arr1) > len(arr2):
+        for key, value in count.items():
+            if value == -1:
+                return key
+
+    # Handle scenarios where the missing element is not found
+    return None
+```
+
 ## Riddle 4 - Continuous Sum
 
 **Problem:** Find the largest sum of a contiguous subarray within the given array.
