@@ -179,46 +179,41 @@ def large_cont_sum(arr):
     
     return max_sum
 ```
-## Riddle 5 - Palindrome Check
+## Riddle 5 - Word Reversal
 
-**Problem:** Determine if a given string is a palindrome.
+**Problem:** Reverse the order of words in a given string.
 
-Here are some reasons why this approach for the palindrome_check function is effective:
+The rev_word function is a Python function designed to efficiently reverse the order of words in a string.
 
-**Efficiency:** The solution compares characters from both ends of the string, resulting in a time complexity of O(n/2), where 'n' is the length of the string. It efficiently identifies non-matching characters, allowing for an early exit if the string is not a palindrome.
-**Space Efficiency:** The function uses a constant amount of additional space, as it only requires a few variables for indexing and comparison.
-Readability and Simplicity: The code is structured for readability and simplicity. It uses clear variable names and comments to explain the purpose of each step, making it easy to understand.
+**Usage:**
 
-**Solution:** To be found in the file *"Riddle 5 - Palindrome Check.py"*
-
-```python:
-def palindrome_check(s):
-    """
-    Determine if a given string is a palindrome.
-
-    Args:
-    - s (str): The input string to be checked.
-
-    Returns:
-    - bool: True if the string is a palindrome, False otherwise.
-
-    The function compares characters from both ends of the string, checking for equality.
-    It efficiently identifies non-matching characters, allowing for an early exit if the string is not a palindrome.
-    """
-    # Convert the string to lowercase and remove spaces
-    s = s.lower().replace(" ", "")
-
-    # Initialize pointers for the start and end of the string
-    start, end = 0, len(s) - 1
-
-    while start < end:
-        # Compare characters from both ends
-        if s[start] != s[end]:
-            return False
-        # Move the pointers towards the center
-        start += 1
-        end -= 1
-
-    # All characters matched, indicating a palindrome
-    return True
+```python
+input_string = "Hello World!"
+result = rev_word(input_string)
+print(result)
 ```
+
+**Parameters:**
+
+s (str): The input string containing words to be reversed.
+
+**Return Value:**
+
+Returns a new string with the order of words reversed.
+
+**Reasons for Effectiveness:**
+**Efficiency:** The function splits the input string into a list of words and then reverses the order using reversed(), resulting in a time complexity of O(n), where 'n' is the length of the string. **Space Efficiency:** The function uses a constant amount of additional space, as it only requires storage for the split words and the reversed order. **Readability and Simplicity:** The code is structured for readability and simplicity. It uses clear variable names and concise methods to achieve the desired result.
+
+**Example:**
+
+```python
+input_string = "Hello World!"
+result = rev_word(input_string)
+print(result)
+# Output: "World! Hello"
+```
+
+**Solution**
+The implementation of the rev_word function can be found in the file **.
+
+Feel free to incorporate and adapt this function into your projects as needed.
