@@ -214,6 +214,6 @@ print(result)
 ```
 
 **Solution**
-The implementation of the rev_word function can be found in the file **.
+The implementation of the rev_word function can be found in the file *Sentence Reversal.py*.
 
 Feel free to incorporate and adapt this function into your projects as needed.
