@@ -217,3 +217,38 @@ print(result)
 The implementation of the rev_word function can be found in the file *Sentence Reversal.py*.
 
 Feel free to incorporate and adapt this function into your projects as needed.
+
+## Riddle 6 - Unique Characters
+
+**Problem:** Given a string, determine if it is comprised of all unique characters. For example, the string 'abcde' has all unique characters and should return True. The string 'aabcde' contains duplicate characters and should return false.
+
+Here is an efficient Python function to check if a string has all unique characters:
+
+**Efficiency:** The function utilizes a set (`character_set`) to keep track of encountered characters, ensuring a time complexity of O(n), where 'n' is the length of the string. It iterates through the string only once, making it efficient for large inputs.
+
+**Space Efficiency:** By using a set to store unique characters, the function ensures space efficiency. The set grows with the number of unique characters encountered, resulting in a constant amount of additional space.
+
+**Readability and Simplicity:** The code employs clear variable names (`character_set`) and follows a straightforward logic. The use of a set to track unique characters enhances readability, and comments explain the purpose of each step.
+
+```python
+def has_unique_characters(s):
+    character_set = set()
+
+    for char in s:
+        if char in character_set:
+            return False
+        else:
+            character_set.add(char)
+
+    return True
+
+# Test the function
+input_string1 = 'abcde'
+input_string2 = 'aabcde'
+
+output1 = has_unique_characters(input_string1)
+output2 = has_unique_characters(input_string2)
+
+print(output1)  # Should print True
+print(output2)  # Should print False
+```
