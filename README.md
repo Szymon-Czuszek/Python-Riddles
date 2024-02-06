@@ -230,6 +230,8 @@ Here is an efficient Python function to check if a string has all unique charact
 
 **Readability and Simplicity:** The code employs clear variable names (`character_set`) and follows a straightforward logic. The use of a set to track unique characters enhances readability, and comments explain the purpose of each step.
 
+**Example:**
+
 ```python
 def has_unique_characters(s):
     character_set = set()
@@ -252,6 +254,10 @@ output2 = has_unique_characters(input_string2)
 print(output1)  # Should print True
 print(output2)  # Should print False
 ```
+
+**Solution**
+The implementation of the (...)
+
 ## Riddle 7 - String Compression
 
 **Problem:** Given a string in the form 'AAAABBBBCCCCCDDEEEE' compress it to become 'A4B4C5D2E4'. For this problem, you can falsely "compress" strings of single or double letters. For instance, it is okay for 'AAB' to return 'A2B1' even though this technically takes more space. The function should also be case-sensitive, so that a string 'AAAaaa' returns 'A3a3'.
@@ -263,6 +269,8 @@ Here is a Python function that accomplishes this:
 **Space Efficiency:** It uses a constant amount of additional space, storing only the compressed string and count variables. The space complexity remains low, making it efficient for different input sizes.
 
 **Readability and Simplicity:** The code is structured for readability and simplicity. It utilizes clear variable names (compressed_string and count) and comments to explain each step, enhancing understanding.
+
+**Example:**
 
 ```python
 def compress_string(s):
@@ -285,3 +293,6 @@ input_string = 'AAAABBBBCCCCCDDEEEE'
 output = compress_string(input_string)
 print(output)
 ```
+
+**Solution**
+The implementation of the (...)
