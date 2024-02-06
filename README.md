@@ -179,6 +179,7 @@ def large_cont_sum(arr):
     
     return max_sum
 ```
+
 ## Riddle 5 - Word Reversal
 
 **Problem:** Reverse the order of words in a given string.
@@ -213,8 +214,7 @@ print(result)
 # Output: "World! Hello"
 ```
 
-**Solution**
-The implementation of the rev_word function can be found in the file *Sentence Reversal.py*.
+**Solution:** The implementation of the rev_word function can be found in the file *Sentence Reversal.py*.
 
 Feel free to incorporate and adapt this function into your projects as needed.
 
@@ -294,5 +294,4 @@ output = compress_string(input_string)
 print(output)
 ```
 
-**Solution**
-The implementation of the solution can be found in the file: *Riddle 7 - String Compression.py*.
+**Solution:** The implementation of the solution can be found in the file: *Riddle 7 - String Compression.py*.
