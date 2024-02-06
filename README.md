@@ -256,7 +256,7 @@ print(output2)  # Should print False
 ```
 
 **Solution**
-The implementation of the (...)
+The implementation of the solution can be found in the file: *Riddle 6 - Unique Characters.py*.
 
 ## Riddle 7 - String Compression
 
@@ -295,4 +295,4 @@ print(output)
 ```
 
 **Solution**
-The implementation of the (...)
+The implementation of the solution can be found in the file: *Riddle 7 - String Compression.py*.
