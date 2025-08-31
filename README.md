@@ -3,7 +3,7 @@ Repository in which I store my ways of solving riddles in Python.
 
 **📜 License:** This project is licensed under the MIT License. 
 
-## Riddle 1 - Unique Pairs
+## 🧮 Riddle 1 - Unique Pairs  
 **Problem:** Given an integer array, output all the unique pairs that sum up to a specific value k.
 
 Here are some reasons why the given approach for the pair_sum function is good:
