@@ -49,7 +49,7 @@ def pair_sum(arr, k):
 
 ## 🔤 Riddle 2 - Anagram Check
 
-**Problem:** Given two strings, check if they are anagrams of each other.
+**❓Problem:** Given two strings, check if they are anagrams of each other.
 
 Here are some reasons why this approach for the anagram function is effective:
 
