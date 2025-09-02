@@ -15,7 +15,7 @@ Here are some reasons why the given approach for the pair_sum function is good:
 **📈 Scalability:** The solution remains efficient even for larger arrays since it maintains a linear time complexity, making it scalable for handling larger datasets without a significant increase in time or space requirements.
 Overall, this approach strikes a balance between efficiency, readability, and simplicity, making it a good choice for finding unique pairs that sum up to a specific value within an array.
 
-**Solution:** To be found in file *"Riddle 1 - Unique Pairs.py"*
+**💡 Solution:** To be found in file *"Riddle 1 - Unique Pairs.py"*
 
 ```python:
 def pair_sum(arr, k):
