@@ -47,7 +47,7 @@ def pair_sum(arr, k):
     return list(result)
 ```
 
-## Riddle 2 - Anagram Check
+## 🔤 Riddle 2 - Anagram Check
 
 **Problem:** Given two strings, check if they are anagrams of each other.
 
