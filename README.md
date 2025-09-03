@@ -53,7 +53,7 @@ def pair_sum(arr, k):
 
 Here are some reasons why this approach for the anagram function is effective:
 
-**Efficiency:** The solution counts character occurrences in both strings, resulting in a time complexity of O(n) where 'n' is the total number of characters in the input strings. It iterates through the strings twice to create character count dictionaries, ensuring an efficient comparison.
+**⚡ Efficiency:** The solution counts character occurrences in both strings, resulting in a time complexity of O(n) where 'n' is the total number of characters in the input strings. It iterates through the strings twice to create character count dictionaries, ensuring an efficient comparison.
 **Space Efficiency:** It uses dictionaries (char_count_s1 and char_count_s2) to store character occurrences, requiring additional space proportional to the number of unique characters in the strings, making it space-efficient.
 **Readability and Simplicity:** The code is structured for readability and simplicity. It utilizes clear variable names and comments to explain the purpose of each step, making it easy to understand.
 
