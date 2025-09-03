@@ -57,7 +57,7 @@ Here are some reasons why this approach for the anagram function is effective:
 **💾 Space Efficiency:** It uses dictionaries (char_count_s1 and char_count_s2) to store character occurrences, requiring additional space proportional to the number of unique characters in the strings, making it space-efficient.
 **📖 Readability and Simplicity:** The code is structured for readability and simplicity. It utilizes clear variable names and comments to explain the purpose of each step, making it easy to understand.
 
-**Solution:** To be found in the file *"Anagram Check.py"*
+**💡 Solution:** To be found in the file *"Anagram Check.py"*
 
 ```python:
 def anagram(s1, s2):
