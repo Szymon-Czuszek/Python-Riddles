@@ -99,7 +99,7 @@ def anagram(s1, s2):
 
 ## 🔎 Riddle 3 - Missing Finder
 
-**Problem:** Given two arrays, find the missing element from the second array that is not present in the first array.
+**❓ Problem:** Given two arrays, find the missing element from the second array that is not present in the first array.
 
 Here are some reasons why this approach for the finder function is effective:
 
