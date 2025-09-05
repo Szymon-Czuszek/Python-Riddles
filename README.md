@@ -106,7 +106,7 @@ Here are some reasons why this approach for the finder function is effective:
 **⚡ Efficiency:** The function uses the Counter class from the collections module to count occurrences of elements in arr1, resulting in a time complexity of O(n) where 'n' is the length of arr1. It efficiently subtracts counts of elements in arr2 from arr1, identifying the missing element.
 **🧩 Handling Different Lengths:** The function correctly handles scenarios where arr2 might have one fewer element than arr1. It compares the counts and identifies the missing element or handles cases where the missing element isn't found.
 
-**Solution:** To be found in the file *"Riddle 3 - Missing Finder.py"*
+**💡 Solution:** To be found in the file *"Riddle 3 - Missing Finder.py"*
 
 ```python:
 from collections import Counter
