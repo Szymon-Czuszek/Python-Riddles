@@ -144,7 +144,7 @@ def finder(arr1, arr2):
 
 ## ➕ Riddle 4 - Continuous Sum
 
-**Problem:** Find the largest sum of a contiguous subarray within the given array.
+**❓ Problem:** Find the largest sum of a contiguous subarray within the given array.
 
 Here are some reasons why this approach for the large_cont_sum function is good:
 
