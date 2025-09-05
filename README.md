@@ -142,7 +142,7 @@ def finder(arr1, arr2):
     return None
 ```
 
-## Riddle 4 - Continuous Sum
+## ➕ Riddle 4 - Continuous Sum
 
 **Problem:** Find the largest sum of a contiguous subarray within the given array.
 
