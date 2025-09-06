@@ -150,7 +150,7 @@ Here are some reasons why this approach for the large_cont_sum function is good:
 
 **⚡ Efficiency:** The function uses a linear iteration through the array, maintaining two variables current_sum and max_sum. It updates current_sum as it traverses the array, keeping track of the maximum contiguous sum encountered in max_sum.
 **💾 Space Efficiency:** It uses a constant amount of additional space, maintaining only two variables for the current sum and maximum sum, ensuring space efficiency.
-**Readability and Simplicity:** The code is structured for readability and simplicity. It utilizes intuitive variable names and comments to explain the purpose of each step, making it easy to understand.
+**📖 Readability and Simplicity:** The code is structured for readability and simplicity. It utilizes intuitive variable names and comments to explain the purpose of each step, making it easy to understand.
 
 **Solution:** To be found in the file *"Riddle 4 - Continuous Sum.py"*
 
