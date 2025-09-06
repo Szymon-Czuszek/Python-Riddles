@@ -152,7 +152,7 @@ Here are some reasons why this approach for the large_cont_sum function is good:
 **💾 Space Efficiency:** It uses a constant amount of additional space, maintaining only two variables for the current sum and maximum sum, ensuring space efficiency.
 **📖 Readability and Simplicity:** The code is structured for readability and simplicity. It utilizes intuitive variable names and comments to explain the purpose of each step, making it easy to understand.
 
-**Solution:** To be found in the file *"Riddle 4 - Continuous Sum.py"*
+**💡 Solution:** To be found in the file *"Riddle 4 - Continuous Sum.py"*
 
 ```python:
 def large_cont_sum(arr):
