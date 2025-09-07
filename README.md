@@ -186,7 +186,7 @@ def large_cont_sum(arr):
 
 The rev_word function is a Python function designed to efficiently reverse the order of words in a string.
 
-**Usage:**
+**🛠 Usage:**
 
 ```python
 input_string = "Hello World!"
