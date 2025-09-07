@@ -194,7 +194,7 @@ result = rev_word(input_string)
 print(result)
 ```
 
-**Parameters:**
+**📥 Parameters:**
 
 s (str): The input string containing words to be reversed.
 
