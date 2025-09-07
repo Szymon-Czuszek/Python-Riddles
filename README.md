@@ -198,7 +198,7 @@ print(result)
 
 s (str): The input string containing words to be reversed.
 
-**Return Value:**
+**📤 Return Value:**
 
 Returns a new string with the order of words reversed.
 
