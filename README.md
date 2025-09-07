@@ -182,7 +182,7 @@ def large_cont_sum(arr):
 
 ## 🔄 Riddle 5 - Word Reversal
 
-**Problem:** Reverse the order of words in a given string.
+**❓ Problem:** Reverse the order of words in a given string.
 
 The rev_word function is a Python function designed to efficiently reverse the order of words in a string.
 
