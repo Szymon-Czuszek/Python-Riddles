@@ -202,7 +202,7 @@ s (str): The input string containing words to be reversed.
 
 Returns a new string with the order of words reversed.
 
-**Reasons for Effectiveness:**
+**⭐ Reasons for Effectiveness:**
 **Efficiency:** The function splits the input string into a list of words and then reverses the order using reversed(), resulting in a time complexity of O(n), where 'n' is the length of the string. **Space Efficiency:** The function uses a constant amount of additional space, as it only requires storage for the split words and the reversed order. **Readability and Simplicity:** The code is structured for readability and simplicity. It uses clear variable names and concise methods to achieve the desired result.
 
 **Example:**
