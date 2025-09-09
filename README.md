@@ -207,7 +207,7 @@ Returns a new string with the order of words reversed.
 - **💾 Space Efficiency:** The function uses a constant amount of additional space, as it only requires storage for the split words and the reversed order.
 - **📖 Readability and Simplicity:** The code is structured for readability and simplicity. It uses clear variable names and concise methods to achieve the desired result.
 
-**Example:**
+**📌 Example:**
 
 ```python
 input_string = "Hello World!"
