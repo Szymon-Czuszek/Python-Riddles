@@ -224,6 +224,7 @@ print(result)
 
 **❓ Problem:** Given a string, determine if it is comprised of all unique characters. For example, the string 'abcde' has all unique characters and should return True. The string 'aabcde' contains duplicate characters and should return false.
 
+### ⭐ Reasons for Effectiveness: 
 Here is an efficient Python function to check if a string has all unique characters:
 
 **Efficiency:** The function utilizes a set (`character_set`) to keep track of encountered characters, ensuring a time complexity of O(n), where 'n' is the length of the string. It iterates through the string only once, making it efficient for large inputs.
