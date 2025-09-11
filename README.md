@@ -233,7 +233,7 @@ Here is an efficient Python function to check if a string has all unique charact
 
 **📖 Readability and Simplicity:** The code employs clear variable names (`character_set`) and follows a straightforward logic. The use of a set to track unique characters enhances readability, and comments explain the purpose of each step.
 
-**Example:**
+**📌 Example:**
 
 ```python
 def has_unique_characters(s):
