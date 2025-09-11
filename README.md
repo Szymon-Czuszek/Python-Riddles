@@ -231,7 +231,7 @@ Here is an efficient Python function to check if a string has all unique charact
 
 **💾 Space Efficiency:** By using a set to store unique characters, the function ensures space efficiency. The set grows with the number of unique characters encountered, resulting in a constant amount of additional space.
 
-**Readability and Simplicity:** The code employs clear variable names (`character_set`) and follows a straightforward logic. The use of a set to track unique characters enhances readability, and comments explain the purpose of each step.
+**📖 Readability and Simplicity:** The code employs clear variable names (`character_set`) and follows a straightforward logic. The use of a set to track unique characters enhances readability, and comments explain the purpose of each step.
 
 **Example:**
 
