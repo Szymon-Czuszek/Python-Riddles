@@ -265,7 +265,7 @@ The implementation of the solution can be found in the file: *Riddle 6 - Unique 
 
 **❓ Problem:** Given a string in the form 'AAAABBBBCCCCCDDEEEE' compress it to become 'A4B4C5D2E4'. For this problem, you can falsely "compress" strings of single or double letters. For instance, it is okay for 'AAB' to return 'A2B1' even though this technically takes more space. The function should also be case-sensitive, so that a string 'AAAaaa' returns 'A3a3'.
 
-Here is a Python function that accomplishes this:
+👉 Here is a Python function that accomplishes this:
 
 **Efficiency:** The function employs a linear iteration through the string, maintaining variables (compressed_string and count). It updates the compressed string as it traverses, resulting in a time complexity of O(n), where 'n' is the length of the input string.
 
