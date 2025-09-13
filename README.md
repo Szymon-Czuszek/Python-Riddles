@@ -273,7 +273,7 @@ The implementation of the solution can be found in the file: *Riddle 6 - Unique 
 
 **📖 Readability and Simplicity:** The code is structured for readability and simplicity. It utilizes clear variable names (compressed_string and count) and comments to explain each step, enhancing understanding.
 
-**Example:**
+**📌 Example:**
 
 ```python
 def compress_string(s):
