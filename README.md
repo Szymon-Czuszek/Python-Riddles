@@ -271,7 +271,7 @@ The implementation of the solution can be found in the file: *Riddle 6 - Unique 
 
 **💾 Space Efficiency:** It uses a constant amount of additional space, storing only the compressed string and count variables. The space complexity remains low, making it efficient for different input sizes.
 
-**Readability and Simplicity:** The code is structured for readability and simplicity. It utilizes clear variable names (compressed_string and count) and comments to explain each step, enhancing understanding.
+**📖 Readability and Simplicity:** The code is structured for readability and simplicity. It utilizes clear variable names (compressed_string and count) and comments to explain each step, enhancing understanding.
 
 **Example:**
 
