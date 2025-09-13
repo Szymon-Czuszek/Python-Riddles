@@ -267,7 +267,7 @@ The implementation of the solution can be found in the file: *Riddle 6 - Unique 
 
 👉 Here is a Python function that accomplishes this:
 
-**Efficiency:** The function employs a linear iteration through the string, maintaining variables (compressed_string and count). It updates the compressed string as it traverses, resulting in a time complexity of O(n), where 'n' is the length of the input string.
+**⚡ Efficiency:** The function employs a linear iteration through the string, maintaining variables (compressed_string and count). It updates the compressed string as it traverses, resulting in a time complexity of O(n), where 'n' is the length of the input string.
 
 **Space Efficiency:** It uses a constant amount of additional space, storing only the compressed string and count variables. The space complexity remains low, making it efficient for different input sizes.
 
