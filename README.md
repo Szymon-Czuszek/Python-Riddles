@@ -297,4 +297,4 @@ output = compress_string(input_string)
 print(output)
 ```
 
-**Solution:** The implementation of the solution can be found in the file: *Riddle 7 - String Compression.py*.
+**💡 Solution:** The implementation of the solution can be found in the file: *Riddle 7 - String Compression.py*.
