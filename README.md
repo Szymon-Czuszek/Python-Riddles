@@ -303,3 +303,14 @@ print(output)
 ```
 
 **💡 Solution:** The implementation of the solution can be found in the file: *Riddle 7 - String Compression.py*.
+
+🔎 Summary
+This riddle introduces a string compression algorithm that demonstrates how to efficiently process sequences of repeated characters. It showcases:
+
+Linear-time iteration for performance,
+
+Minimal space usage with simple counters, and
+
+Clear, intuitive code structure.
+
+Although compression may not always reduce string size (e.g., 'AAB' → 'A2B1'), this approach illustrates a fundamental technique in text processing that can be extended to more advanced algorithms like run-length encoding.
