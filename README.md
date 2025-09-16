@@ -262,7 +262,8 @@ print(output2)  # Should print False
 The implementation of the solution can be found in the file: *Riddle 6 - Unique Characters.py*.
 
 **🔎 Summary:**
-This riddle highlights how to check whether a string has all unique characters using sets.
+This riddle highlights how to check whether a string has all unique characters using sets. It demonstrates:
+- ⚡ Single-pass iteration for efficiency
 
 ## 📝 Riddle 7 - String Compression
 
