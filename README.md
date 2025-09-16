@@ -264,6 +264,7 @@ The implementation of the solution can be found in the file: *Riddle 6 - Unique 
 **🔎 Summary:**
 This riddle highlights how to check whether a string has all unique characters using sets. It demonstrates:
 - ⚡ Single-pass iteration for efficiency
+- 💾 Use of a set for minimal space usage
 
 ## 📝 Riddle 7 - String Compression
 
