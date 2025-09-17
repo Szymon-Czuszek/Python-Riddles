@@ -221,7 +221,8 @@ print(result)
 ✍️ Feel free to incorporate and adapt this function into your projects as needed.
 
 **🔎 Summary:**
-This riddle demonstrates how to reverse the order of words in a string efficiently.
+This riddle demonstrates how to reverse the order of words in a string efficiently. It showcases:
+- ⚡ Linear-time word splitting and reversal for performance
 
 ## 🔠 Riddle 6 - Unique Characters
 
