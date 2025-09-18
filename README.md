@@ -224,6 +224,7 @@ print(result)
 This riddle demonstrates how to reverse the order of words in a string efficiently. It showcases:
 - ⚡ Linear-time word splitting and reversal for performance
 - 💾 Minimal extra memory usage for space efficiency
+- 📖 Clear, concise logic that ensures readability
 
 ## 🔠 Riddle 6 - Unique Characters
 
