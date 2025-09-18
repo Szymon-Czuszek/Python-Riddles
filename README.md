@@ -180,6 +180,8 @@ def large_cont_sum(arr):
     return max_sum
 ```
 
+**🔎 Summary:**
+
 ## 🔄 Riddle 5 - Word Reversal
 
 **❓ Problem:** Reverse the order of words in a given string.
