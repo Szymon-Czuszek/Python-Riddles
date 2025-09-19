@@ -183,6 +183,7 @@ def large_cont_sum(arr):
 **🔎 Summary:**
 This riddle focuses on finding the largest sum of a contiguous subarray (Kadane’s Algorithm). It demonstrates:
 - ⚡ Linear-time iteration for optimal efficiency
+- 💾 Constant extra variables for excellent space usage
 
 ## 🔄 Riddle 5 - Word Reversal
 
