@@ -186,6 +186,8 @@ This riddle focuses on finding the largest sum of a contiguous subarray (Kadane�
 - 💾 Constant extra variables for excellent space usage
 - 📖 Clear and simple logic that improves readability
 
+This solution provides a classic and scalable approach to subarray problems, widely applicable in algorithm design and coding interviews.
+
 ## 🔄 Riddle 5 - Word Reversal
 
 **❓ Problem:** Reverse the order of words in a given string.
