@@ -143,6 +143,7 @@ def finder(arr1, arr2):
 ```
 
 **🔎 Summary:**
+This riddle solves the problem of finding a missing element between two arrays. It highlights:
 
 ## ➕ Riddle 4 - Continuous Sum
 
