@@ -146,6 +146,7 @@ def finder(arr1, arr2):
 This riddle solves the problem of finding a missing element between two arrays. It highlights:
 - ⚡ Linear-time counting with Counter for strong efficiency
 - 🧩 Correct handling of cases with different array lengths
+- 📖 Straightforward implementation with clear logic
 
 ## ➕ Riddle 4 - Continuous Sum
 
