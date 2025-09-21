@@ -98,6 +98,7 @@ def anagram(s1, s2):
 ```
 
 **🔎 Summary:**
+This riddle checks whether two strings are anagrams of each other. It demonstrates:
 
 ## 🔎 Riddle 3 - Missing Finder
 
