@@ -148,6 +148,8 @@ This riddle solves the problem of finding a missing element between two arrays. 
 - 🧩 Correct handling of cases with different array lengths
 - 📖 Straightforward implementation with clear logic
 
+This solution provides a reliable way to compare arrays and detect discrepancies, making it valuable for data validation and integrity checks.
+
 ## ➕ Riddle 4 - Continuous Sum
 
 **❓ Problem:** Find the largest sum of a contiguous subarray within the given array.
