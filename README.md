@@ -97,6 +97,8 @@ def anagram(s1, s2):
     return char_count_s1 == char_count_s2
 ```
 
+**🔎 Summary:**
+
 ## 🔎 Riddle 3 - Missing Finder
 
 **❓ Problem:** Given two arrays, find the missing element from the second array that is not present in the first array.
