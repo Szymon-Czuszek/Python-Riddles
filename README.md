@@ -99,6 +99,7 @@ def anagram(s1, s2):
 
 **🔎 Summary:**
 This riddle checks whether two strings are anagrams of each other. It demonstrates:
+- ⚡ Linear-time character counting for strong efficiency
 
 ## 🔎 Riddle 3 - Missing Finder
 
