@@ -101,6 +101,7 @@ def anagram(s1, s2):
 This riddle checks whether two strings are anagrams of each other. It demonstrates:
 - ⚡ Linear-time character counting for strong efficiency
 - 💾 Use of dictionaries for proportional but lean space usage
+- 📖 Clean structure with intuitive variable names for readability
 
 ## 🔎 Riddle 3 - Missing Finder
 
