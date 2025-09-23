@@ -51,7 +51,8 @@ def pair_sum(arr, k):
 This riddle finds all unique pairs of numbers in an array that sum to a given target k. It highlights:
 - ⚡ Efficiency with linear-time iteration and set lookups
 - 💾 Space efficiency by leveraging sets for fast checks
-- 
+- 🔄 Built-in handling of duplicate pairs through sorting and uniqueness enforcement
+
 ## 🔤 Riddle 2 - Anagram Check
 
 **❓Problem:** Given two strings, check if they are anagrams of each other.
