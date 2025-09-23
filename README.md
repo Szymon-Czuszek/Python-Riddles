@@ -50,6 +50,7 @@ def pair_sum(arr, k):
 **🔎 Summary:**
 This riddle finds all unique pairs of numbers in an array that sum to a given target k. It highlights:
 - ⚡ Efficiency with linear-time iteration and set lookups
+- 💾 Space efficiency by leveraging sets for fast checks
 - 
 ## 🔤 Riddle 2 - Anagram Check
 
