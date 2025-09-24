@@ -1,6 +1,9 @@
 # 🐍 Python-Riddles
 Repository in which I store my ways of solving riddles in Python.
 
+**A repository where I store my Python implementations for solving classic programming riddles and coding challenges. Each riddle includes:**
+
+
 **📜 License:** This project is licensed under the MIT License. 
 
 ## 🧮 Riddle 1 - Unique Pairs  
