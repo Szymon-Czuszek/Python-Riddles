@@ -52,7 +52,7 @@ This riddle finds all unique pairs of numbers in an array that sum to a given ta
 - ⚡ Efficiency with linear-time iteration and set lookups
 - 💾 Space efficiency by leveraging sets for fast checks
 - 🔄 Built-in handling of duplicate pairs through sorting and uniqueness enforcement
--  Readable, simple structure with intuitive variable names
+- 📖 Readable, simple structure with intuitive variable names
 
 ## 🔤 Riddle 2 - Anagram Check
 
